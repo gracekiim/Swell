@@ -19,6 +19,7 @@ const {
   REACT_DEVELOPER_TOOLS,
   REDUX_DEVTOOLS,
 } = require("electron-devtools-installer");
+
 // Import Auto-Updater- Swell will update itself
 const { autoUpdater } = require("electron-updater");
 // TouchBarButtons are our nav buttons(ex: Select All, Deselect All, Open Selected, Close Selected, Clear All)

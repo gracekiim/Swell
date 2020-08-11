@@ -358,6 +358,7 @@ class ComposerNewRequest extends Component {
   render() {
     const HeaderEntryFormStyle = {
       //trying to change style to conditional created strange duplication effect when continuously changing protocol
+      // if protocol is websockets, don't display anything after query
       display: !/wss?:\/\//.test(this.props.newRequestFields.protocol)
         ? "block"
         : "none",

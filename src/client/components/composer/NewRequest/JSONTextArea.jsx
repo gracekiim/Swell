@@ -8,6 +8,7 @@ class JSONTextArea extends Component {
     this.handleKeyPress = this.handleKeyPress.bind(this);
   }
 
+  // eslint-disable-next-line react/sort-comp
   handleKeyPress(event) {
     if (event.key === "Tab") {
       event.preventDefault();
@@ -124,10 +125,10 @@ class JSONTextArea extends Component {
               bodyContent: e.target.value,
             });
           }}
-        ></textarea>
+         />
         <div
           style={prettyPrintDisplay}
-          className={"composer_pretty_print"}
+          className="composer_pretty_print"
           onClick={this.prettyPrintJSON}
         >
           JSON correctly formatted. Pretty print?

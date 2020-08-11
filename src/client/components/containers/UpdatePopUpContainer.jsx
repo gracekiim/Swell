@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
+
 const { api } = window;
 
+// need empty dispath?
 const mapDispatchToProps = (dispatch) => ({});
 
 class UpdatePopUpContainer extends Component {

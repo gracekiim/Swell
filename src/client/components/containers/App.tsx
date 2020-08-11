@@ -59,8 +59,11 @@ export class App extends React.Component<any, any> {
   }
 
   render() {
+    // dummy test
     api.receive("fromMain", (data: {}) => console.log(data));
+    // dummy test
     api.send("toMain", "MEAT WITH SAUCE");
+    
     return (
       <div id="app">
         <UpdatePopUpContainer />

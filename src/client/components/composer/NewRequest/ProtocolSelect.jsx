@@ -33,6 +33,7 @@ class ProtocolSelect extends Component {
     return (
       <div className="composer_protocol_container">
         <div
+          // display on hover of button
           title="Enter an http or an https url"
           role="button"
           tabIndex={0}
